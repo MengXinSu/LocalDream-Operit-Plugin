@@ -1,5 +1,4 @@
 # LocalDream Operit Plugin 📱🎨
-
 **手机本地AI生图插件 — Operit 平台版**
 
 基于 [xororz/local-dream](https://github.com/xororz/local-dream) ❤️ 开发的 Operit 插件，
@@ -20,6 +19,10 @@
 
 ## 安装
 
+### 方法一：AI 自动安装 🤖
+直接把本仓库链接扔给你的AI助手，让它帮你下载安装~
+
+### 方法二：手动安装 ✋
 将 `com.operit.localdream_gen` 文件夹放入 Operit 的 `dev_package` 目录即可。
 
 ## 使用方法
@@ -27,6 +30,7 @@
 在对话中调用生图工具即可自动生成。
 
 ---
+
 *Powered by [LocalDream](https://github.com/xororz/local-dream) 🧡 Made with love by MengXinSu*
 
 ## ⚖️ 许可证
