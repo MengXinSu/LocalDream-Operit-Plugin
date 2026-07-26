@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.localdream_gen",
+  "version": "2.0.0",
+  "author": ["LocalDream Team"],
+  "main": "main.js",
+  "display_name": {
+    "zh": "LocalDream 本机生图",
+    "en": "LocalDream Image Gen"
+  },
+  "description": {
+    "zh": "通过 LocalDream 在手机本地生成 AI 图片，支持可视化配置固定正反向提示词。",
+    "en": "Local AI image generation with configurable fixed prompts."
+  },
+  "subpackages": [
+    {
+      "id": "localdream_gen_core",
+      "entry": "packages/localdream_gen_core.js",
+      "enabled_by_default": true,
+      "display_name": {
+        "zh": "LocalDream 生图核心",
+        "en": "LocalDream Core"
+      },
+      "description": {
+        "zh": "核心生图工具集。",
+        "en": "Core generation tools."
+      }
+    }
+  ]
+}
