@@ -29,9 +29,17 @@
 
 在对话中调用生图工具即可自动生成。
 
----
+### ⚠️ 重要：后台运行设置
 
-*Powered by [LocalDream](https://github.com/xororz/local-dream) 🧡 Made with love by MengXinSu*
+LocalDream 在加载模型后，请务必进行以下设置，否则可能导致生图失败或进程被系统清理：
+
+1. **小窗运行** 🪟 — 模型加载完成后，将 LocalDream 切换为**小窗模式（悬浮窗）**运行，不要完全关闭
+2. **无限制后台** 🔋 — 在手机系统设置中，将 LocalDream 应用设为：
+   - 「**无限制后台运行**」（或关闭「省电策略」）
+   - 「**忽略电池优化**」
+   - 不同品牌路径：`设置 → 应用 → LocalDream → 电池 → 无限制`
+3. **模型预加载** 🔄 — 如果调用生图时提示模型未加载，请先打开 LocalDream 确认模型已下载并加载完毕
+4. **第一次生图较慢** ⏳ — 首次生图需要编译Shader，后续会快很多，耐心等待~
 
 ## ⚖️ 许可证
 
@@ -41,3 +49,7 @@
 > 📝 **必须署名** — 使用或修改本插件时，必须保留原作者及原项目链接。
 
 详见 [LICENSE](./LICENSE) 文件。
+
+---
+
+*Powered by [LocalDream](https://github.com/xororz/local-dream) 🧡 Made with love by MengXinSu*
