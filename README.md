@@ -1,5 +1,7 @@
 # LocalDream Operit Plugin 📱🎨
 
+> 本仓库代码由 AI 生成。
+
 **手机本地AI生图插件 — Operit 平台版**
 
 在手机本地运行 Stable Diffusion，无需联网，保护隐私。
