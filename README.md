@@ -1,22 +1,22 @@
 # LocalDream Operit Plugin 📱🎨
 
-> 本仓库代码由 AI 生成。
+> 项仓库代码由 AI 生成。
 
-**手机本地AI生图插件 — Operit 平台版**
+**手机项地AI生图插件 — Operit 平台版**
 
-在手机本地运行 Stable Diffusion，无需联网，保护隐私。
+在手机项地运行 Stable Diffusion，无需联网，保护隐私。
 
 ## 功能
 
-- 🖼️ 手机本地AI生图（SD1.5 / SDXL）
+- 🖼️ 手机项地AI生图（SD1.5 / SDXL）
 - ⚡ 骁龙NPU加速，也支持CPU/GPU推理
 - 🎨 支持自定义正向/反向提示词
-- 📱 纯本地运行，隐私安全
+- 📱 纯项地运行，隐私安全
 
 ## 安装
 
 ### 方法一：AI 自动安装 🤖
-直接把本仓库链接扔给你的AI助手，让它帮你下载安装。
+直接把项仓库链接扔给你的AI助手，让它帮你下载安装。
 
 ### 方法二：手动安装 ✋
 将 `com.operit.localdream_gen` 文件夹放入 Operit 的 `dev_package` 目录即可。
@@ -33,6 +33,6 @@ LocalDream 加载模型后请确保 APP 保持后台运行（小窗模式或设�
 
 ## 许可证
 
-本项目采用 CC BY-NC 4.0（署名-非商业使用）许可证。
-可以自由分享、修改，但需署名原作者且不得用于商业用途。
+本项目采用 GPL-3.0（GNU General Public License v3）许可证。
+可以自由使用、修改和再分发，但修改后的作品必须同样以 GPL-3.0 开源。
 详见 LICENSE 文件。
